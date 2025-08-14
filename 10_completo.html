@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - Demonstração HTML completo</title>
+</head>
+<body>
+    <!-- Cabeçalho da pagina (header) -->
+     <header>
+        <!-- Logo de navegação -->
+        <h1>Othavio Kauan - Desenvolvedor web</h1>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- Área de destaque (Conteudo principal) -->
+      <main>
+        <section id="Sobre">
+            <h2>Sobre mim</h2>
+            <img src="assets/avatar_h.jpg" alt="Foto do Othavio">
+
+            <p>Sou estudante de <strong>Desenvolvedor de Sistemas</strong> no SENAI</p>
+            <p>Tenho conhecimento em <em>HTML</em>, <me>CSS</me> e estou aprendendo <em>Java Script</em></p>
+
+            <!-- Lista de habilidades -->
+             <h3>Minhas habilidades</h3>
+             <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsabilidade</li>
+                <li>Formulário e Validação</li>
+                <li>Estrutura de dados</li>
+             </ul>
+        </section>
+
+        <!-- Seção de projetos com tabela -->
+         <section id="projetos">
+            <h2>Meus projetos</h2>
+            <table border="1" cellpadding="10" cellspacing="0" width="50%">
+                <thead><
+                    <tr>
+                        <th>Projetos</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Site pessoal</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluido</td>
+                        <td><a href="projeto.html">ver projeto</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sistema de cadastro</td>
+                        <td>HTML, CSS e Java Script</td>
+                        <td>Em andamento</td>
+                        <td><a href="projeto2.html">ver projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Seção contato (Formulario simples) -->
+         <section id="contato">
+             <h2>Entre em contato</h2>
+
+             <form action="enviar.php">
+                <fieldset>
+                    <legend>Dados de contato</legend>
+
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" required><br></br>
+
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" required><br></br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <select name="assunto" id="assunto">
+                        <option value="trabalhando">Oportunidade de trabalho</option>
+                        <option value="projeto">Proposta de projeto</option>
+                        <option value="geral">Contato geral</option>
+                    </select><br></br>
+
+                    <label for="mensagem">mensagem</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea><br></br>
+
+                    <input type="submit" value="Enviar mensagem">
+
+                </fieldset>
+            </form>
+         </section>
+      </main>
+
+      <!-- Rodapé (Footer) -->
+
+      <Footer>
+        <p>&copy; 2025 Othavio Kauan. Desenlvido durante o curso do SENAI</p>
+        <p>
+            <a href="mailto:othaviokauan60@gmail.com">otaviokauan60@gmail.com</a>
+            <a href="tel:#5511914803162">(11) 91480-3162</a>
+        </p>
+      </Footer>
+    
+</body>
+</html>

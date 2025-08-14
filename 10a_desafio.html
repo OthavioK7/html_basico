@@ -1,9 +1,64 @@
 <!-- Desafio 2 digitação (Aqui) -->
- 
-<!-- Obs: Ler (10a_desafio.md) para orientações -->
-<!-- Imagem de como deve ficar pronto na pasta assets (desafio 2.jpg) -->
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews Today</title>
+</head>
+<body>
+    <!-- Cabeçalho da pagina (header) -->
+    <header>
+    <h1>📷 Luna Captures</h1>
+        <nav>
+            <a href="#Sobre">Sobre</a> |
+            <a href="#Projetos">Projetos</a> |
+            <a href="#Contato">Contato</a> |
+        </nav>
+    </header>
+    <!-- Sobre Luna -->
+    <h2>Sobre Luna</h2>
+        <p>Fotógrafo há <strong>8 anos</strong> especializada em <em>momentos únicos.</em></p>
+            <blockquote>
+                <p>"A fotografia capturada não apenas o que vemos, mas o que sentimos."</p>
+            </blockquote>
+    <!-- Galeria -->
+    <h2>Galeria</h2>
+            <img src="assets/Casamento1.jpg" alt="Casamento1" width="250" heigth="100">
+            <img src="assets/Casamento2.jpg" alt="Casamento2" width="250" heigth="100">
+            <img src="assets/Casamento3.jpg" alt="Casamento3" width="250" heigth="100">
+    <!-- Serviços -->
+    <h2>Serviços</h2>
+            <nav>
+                <ul>
+                    <li><p><strong>Casamento</strong> - R$ 1.200</p></li>
+                    <li><p><strong>Retratos</strong> - R$ 350</p></li>   
+                    <li><p><strong>Eventos</strong> - R$ 600</p></li>
+                </ul>
+            </nav>
+    <!-- Contato -->
+    <h2>Contato</h2>
+        <label for="nome:">Nome:</label>
+            <input type="text" id="nome" required><br></br>
+        <label for="email:">Email:</label>
+            <input type="text" id="email" required><br></br>
+        <label for="Evento">Evento:</label>
+            <select name="Evento" id="Evento">
+                <option value="Casamento">Casamento</option>
+            </select><br></br>
+        <label for="Detalhes">Detalhes:</label><br>
+            <textarea name="mensagem" id="mensagem" rows="5"></textarea><br></br>
 
-<!-- 📱 🚀 📺 📧 emojis para usar no projeto -->
+        <input type="submit" value="Solicitar Orçamento">
+        <!-- Rodapé (Footer) -->
+        <Footer>
+            <p>&copy; 2025 Luna Captures |
+                <a href="mailto:othaviokauan60@gmail.com">otaviokauan60@gmail.com</a>
+            </p>
+        </Footer>    
+</body>
+</html>
+
 
 
 
